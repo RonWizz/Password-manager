@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-image: url("password.jpg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: green;
+  font-size: 60px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  font: bold;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#email1{
+  margin-left: 48%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.password-actions {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.generated-password {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 20px auto;
+}
+#generatedPassword{
+  color: white;
+}
